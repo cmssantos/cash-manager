@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashManager.Communication\CashManager.Communication.csproj" />
+    <ProjectReference Include="..\CashManager.Exception\CashManager.Exception.csproj" />
+    <ProjectReference Include="..\CashManager.Domain\CashManager.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FlexRepo" Version="0.2.1" />
+    <PackageReference Include="fluentvalidation" Version="11.9.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
